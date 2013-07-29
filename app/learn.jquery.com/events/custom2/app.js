@@ -8,6 +8,7 @@
 $(function(){
 	
 	// this is the behavior that you want to happen.
+	// state is now in the light bulb and not the switches.
 	$( ".lightbulb" ).on( "changeState", function( e ) {
 		var $light = $( this );
 		if ( $light.hasClass( "on" ) ) {

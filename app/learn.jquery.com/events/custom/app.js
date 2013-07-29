@@ -13,6 +13,7 @@ $(function(){
 		var $light = $( this ).parent().find( ".lightbulb" );
 		
 		// toggling class for light bulb.
+		// note that you are using the switches to maintain state.
 		if ( $light.hasClass( "on" ) ) {
 			$light.removeClass( "on" ).addClass( "off" );
 			$light.css("background-color", "black");
