@@ -1,0 +1,17 @@
+#div_8 {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    right: 0;
+    background: yellow;
+}
+#div_9 {
+	width: 200px;
+    height: 200px;
+    position: relative;
+    border: 1px solid black;
+}
+#div_10 {
+	border: 1px solid black;
+}
